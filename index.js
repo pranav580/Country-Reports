@@ -79,9 +79,7 @@ function showdata(res,selectedCountry)
     var countryDetails = container.appendChild(div);
     countryDetails.classList.add("countryDetails");
     const map = document.querySelector(".countryDetails");
+    map.style.display = "";
     var html = '<div class="flag"><img src="'+printdata.flags.png+'" alt=""></div> <div class="name"><h1>'+printdata.name.common+'</h1></div> <div class="lang">Language '+printdata.languages+'</div> <div class="map"><h6>Geographic Location <a href= "'+printdata.maps.googleMaps +'">Google Map</a></h6></div>';
-    map.innerHTML = html;
-
-    
-    
+    map.innerHTML = html;   
 }
