@@ -36,8 +36,9 @@ body{
 .screenLocation{
     border-radius: 3px;
     background: linear-gradient(145deg, #3fb8c3, #359ba4);
-    box-shadow:  5px 5px 10px #329099,
-                 -5px -5px 10px #44c8d3;
+    box-shadow: 4px 4px 8px #329099, -3px -3px 6px #44c8d3;
+    /* box-shadow:  5px 5px 10px #329099,
+                 -5px -5px 10px #44c8d3; */
     padding: 2%;
     margin: 10px;
     font-family:Arial, Helvetica, sans-serif;
@@ -85,9 +86,10 @@ body{
     overflow: auto;
     border: 2px solid #3BACB6;
     border-radius: 5px ;
-    background: #3BACB6;
-    box-shadow: inset 25px 25px 51px #32929b,
-                inset -25px -25px 51px #44c6d1;
+    /* background: #3BACB6; */
+    box-shadow: inset 4px 4px 8px #32929b, inset -3px -3px 6px #44c6d1;
+    /* box-shadow: inset 25px 25px 51px #32929b,
+                inset -25px -25px 51px #44c6d1; */
 }
 .optionList{
     text-align: center;
